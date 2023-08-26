@@ -1,0 +1,41 @@
+.container{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1{
+  -webkit-text-stroke: .41px ;
+
+}
+
+
+.whole-drum{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: min-content;
+  margin: 50px auto;
+  gap: 15px;
+  
+  
+}
+
+.drum-pad{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(65, 20, 190);
+  font-weight: 600;
+  font-size: 33px;
+  box-shadow: 7px 7px 10px rgba(83, 79, 141, 0.452);
+  border-radius: 8px 10px 12px 14px;
+  color: white;
+  transition: all .1s ease-in-out;
+}
+
+.drum-pad:active{
+  transform: translate(25px,25px)
+}
+
+
+

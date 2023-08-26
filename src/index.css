@@ -1,0 +1,15 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  
+  color: white;
+  background-image: linear-gradient(to right, rgba(99, 10, 172, 0), rgb(41, 11, 126));
+
+}
+
+*{
+  padding: 0;
+ 
+}
